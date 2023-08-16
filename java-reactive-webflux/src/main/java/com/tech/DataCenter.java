@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 
 public class DataCenter {
 	public Mono<Integer> getNumber() {
-		return Mono.just(42).delayElement(Duration.ofSeconds(1));
+		return Mono.just(42).delayElement(Duration.ofSeconds(5));
 	}
 	
 	public Flux<Integer> getNumbers() {
