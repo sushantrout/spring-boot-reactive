@@ -9,9 +9,3 @@ reactive-example/.mvn/wrapper/maven-wrapper.jar
 *.jar
 java8-async/.classpath
 java8-async/.settings/org.eclipse.jdt.apt.core.prefs
-/out/
-**/out/
-**/out/**
-**/.idea/
-.idea
-**/.idea/**

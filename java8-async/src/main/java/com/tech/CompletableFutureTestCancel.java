@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  * @author Sushant Kumar Rout 
  * Because first the request is complete so that
  *         cancel is not throwing exception if the complete value is not there
- *         then ot will throw Exception
+ *         then it will throw Exception
  */
 public class CompletableFutureTestCancel {
 	public static void main(String[] args) {
